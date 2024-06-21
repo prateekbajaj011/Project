@@ -1,0 +1,184 @@
+.Home{
+background-color:black;
+width:100%;
+height:100%;
+margin:0px;
+}
+.Home ul{
+padding:0px;	
+margin-left:10px;
+margin-right:-62px;
+list-style: none;
+
+}
+.Home ul li{
+float: left;
+background-color:black;
+color: white;
+width: 185px;       
+height:60px;
+line-height: 50px;
+font-size: 20px;
+text-align: center;
+list-style: none;
+}
+.Home ul li a{
+    background: black;
+    color:white;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.Home ul li ul a:hover{
+    background: black;
+    
+}
+.Home ul li ul li {
+    background-color: black;
+    display: none ;
+}
+
+.Home ul li:hover ul li{
+	display: block;
+        background: black;
+}
+
+.HME{
+	margin-top:100px;
+	margin-right:200px;
+	margin-left:200px;
+	text-align:center;
+	font-size:20px;
+}
+.image{
+	padding:0px;
+	margin-right:300px;
+	margin-left:400px;
+	margin-top:200px;
+	text-align:center;
+}
+	
+.slider
+{
+    background-color:white;
+    width:800px;
+    height:450px;
+    overflow:hidden;
+    margin-top:70px;
+	margin-left:200px;
+}
+
+.slider .slides{
+    width:15000px;
+    height:500px;
+    display:flex;
+}
+
+.slide1{
+    width:68vw;
+    height:52vh;
+}
+
+.slide1 .img1{
+    width:400px;
+    height:400px;
+    display:inline-block;
+    margin-top:4%;
+}
+.slide1 .img2{
+    width:400px;
+    height:400px;
+	display:inline-block;
+    margin-top:4%;
+}
+.slide1 .img3{
+	width:400px;
+    height:400px;
+	display:inline-block;
+    margin-top:4%;
+}
+
+.slide1 .img4{
+	width:400px;
+    height:400px;
+	display:inline-block;
+    margin-top:4%;
+}
+
+.constant{
+    position:absolute;
+    width:26vw;
+    height:52vh;
+    margin-left:36vw;
+}
+.constant h1{
+    margin-top:10vh;
+    color:black;
+	font-size:50px;
+}
+.constant p{
+    margin-top:3vh;
+    margin-bottom:3vh;
+    font-size:25px;   
+	}
+
+.constant .btnshopnow{
+	padding:4%;
+    color:white;
+    background-color:#313030;
+    border-radius:10px;
+}
+
+.footer{
+    bottom:0px;
+    width:1330px;
+    height:30px;
+    padding-top:10%;
+}
+
+.footer .outer{
+    background-color:black;
+    color:white;
+    width:1330px;
+    height:250px;
+    display:flex;
+    align-items:center;
+    font-size:18px;
+}
+
+.footer .inner{
+    width:20%;
+    height:80%;
+    display:inline-block;
+    margin-left:8%;
+    border-right:1px solid #afafaf;
+}
+
+.footer .inner2{
+    width:20%;
+    height:80%;
+    display:inline-block;
+    margin-left:5%;
+    border-right:1px solid #afafaf;
+
+}
+
+.footer a{
+    display:block;
+    padding:2%;
+    color:white;
+}
+
+.footer .copyright{
+    background-color:black;	
+	color:white;
+}
+
+.footer .copyright span{
+    margin-left:100px;
+}
+a{
+  text-decoration: none;
+}

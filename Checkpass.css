@@ -1,0 +1,195 @@
+.Home{
+background-color:black;
+width:101%;
+height:100%;
+margin:0px;
+}
+.Home ul{
+padding:0px;	
+margin-left:10px;
+margin-right:-62px;
+list-style: none;
+
+}
+.Home ul li{
+float: left;
+background-color:black;
+color: white;
+width: 185px;       
+height:60px;
+line-height: 50px;
+font-size: 20px;
+text-align: center;
+list-style: none;
+}
+.Home ul li a{
+    background: black;
+    color:white;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.Home ul li ul a:hover{
+    background: black;
+}
+.Home ul li ul li {
+    background-color: black;
+    display: none ;
+}
+
+.Home ul li:hover ul li{
+	display: block;
+        background: black;
+}
+
+.left{
+    float:left;
+    margin-top:20px;
+    width:250px;
+    border :2px solid black;
+    border-radius: 20px;
+}
+
+.down{
+    margin-top: 120px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.down p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resetbox{
+    width: 500px;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    top: 70%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.resetbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resetbox input{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.resetbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.resetbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.resetbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.resetbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.resetbox a:hover
+{
+    color: #ffc107;
+}
+
+.footer{
+    bottom:0px;
+    width:1330px;
+    height:30px;
+    padding-top:10%;
+}
+
+.footer .outer{
+    background-color:black;
+    color:white;
+    width:1330px;
+    height:250px;
+    display:flex;
+    align-items:center;
+    font-size:18px;
+}
+
+.footer .inner{
+    width:20%;
+    height:80%;
+    display:inline-block;
+    margin-left:6%;
+    border-right:1px solid #afafaf;
+}
+
+.footer .inner2{
+    width:20%;
+    height:80%;
+    display:inline-block;
+    margin-left:5%;
+    border-right:1px solid #afafaf;
+
+}
+
+.footer a{
+    display:block;
+    padding:2%;
+    color:white;
+}
+
+.footer .copyright{
+    background-color:black;	
+	color:white;
+}
+
+.footer .copyright p{
+    margin-left:100px;
+}
+a{
+  text-decoration: none;
+}
